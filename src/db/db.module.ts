@@ -10,10 +10,11 @@ import { Vote, VoteSchema } from './schemas/vote.schema';
       {
         name: Vote.name,
         schema: VoteSchema,
-      }, {
+      },
+      {
         name: Candidate.name,
         schema: CandidateSchema,
-      }
+      },
     ]),
   ],
   providers: [DbService],

@@ -1,6 +1,5 @@
 import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/common';
-import { CreateVoteDto as VoteDto } from './dto/create-vote.dto';
-import { UpdateVoteDto } from './dto/update-vote.dto';
+import { VoteDto } from './dto/create-vote.dto';
 import { DbService } from 'src/db/db.service';
 
 @Controller('vote')

@@ -1,3 +1,3 @@
-export class CreateVoteDto {
+export class VoteDto {
 	name: string;
 }

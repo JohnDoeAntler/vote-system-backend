@@ -5,8 +5,8 @@ export type CandidateDocument = Candidate & Document;
 
 @Schema({ timestamps: true })
 export class Candidate {
-	@Prop({ required: true })
-	name: string;
+  @Prop({ required: true })
+  name: string;
 }
 
 export const CandidateSchema = SchemaFactory.createForClass(Candidate);
